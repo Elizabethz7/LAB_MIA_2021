@@ -9,5 +9,5 @@ Para correr el servidor
 go build
 ```
 ```
-go ./API
+./API
 ```
