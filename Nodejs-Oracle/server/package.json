@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -w",
+    "dev": "nodemon build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "course": "0.0.1",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql": "github:mysqljs/mysql",
+    "promise-mysql": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.6",
+    "@types/morgan": "^1.9.0",
+    "@types/mysql": "^2.15.9",
+    "nodemon": "^2.0.3"
+  },
+  "description": ""
+}
